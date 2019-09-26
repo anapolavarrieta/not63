@@ -11,6 +11,32 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function()
+{
+	return View::make('index');
+});
+
+Route::get('/notario', function()
+{
+	return View::make('notario');
+});
+
+Route::get('/directorio', function()
+{
+	return View::make('directorio');
+});
+
+Route::get('/servicios', function()
+{
+	return View::make('servicios');
+});
+
+Route::get('/ligas', function()
+{
+	return View::make('ligas');
+});
+
+Route::get('/contacto', function()
+{
+	return View::make('contacto');
 });

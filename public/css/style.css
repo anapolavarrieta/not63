@@ -1,0 +1,48 @@
+/*nav bar*/
+.navbar{
+	background-color: #D2D2D2;
+	text-align: center;
+} 	
+
+.navbar-light .navbar-nav .nav-link{
+	color:#8E0000;
+	font-weight: bold;
+	font-size: 130%;
+}
+
+/*hr*/
+
+hr.firstline{
+	background-color: #8E0000;
+	border-width: 5px;
+	margin-top: 0px;
+	margin-bottom: 0.3em;
+}
+
+hr.secondline{
+	background-color: #8E0000;
+	border-width: 3px;
+	margin-top: 0px;
+	margin-bottom: 0.3em;
+}
+
+/*titulos*/
+h1.titulo{
+	text-align: center;
+}
+
+/*notario*/
+img.notario{
+	max-height: 250px;
+}
+
+/*directorio*/
+div.directorio{
+	text-align: center;
+}
+
+ul.directorio{
+	list-style: none;
+}
+
+
