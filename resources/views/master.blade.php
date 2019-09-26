@@ -60,7 +60,13 @@
 		</nav>
 		<hr class="firstline"></hr>
 		<hr class="secondline"></hr>
-      	@yield('content')	
+      	@yield('content')
+      	
+      	<footer class="footer">
+      		<div class="container">
+        		<span class="text-muted"></span>
+      		</div>
+    	</footer>	
 	</div>
 
 </body>

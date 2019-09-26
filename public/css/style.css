@@ -1,3 +1,22 @@
+/*html*/
+html {
+  position: relative;
+  min-height: 100vh;
+}
+
+.container-fluid{
+	padding-bottom: 90px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 90px; /* Set the fixed height of the footer here */
+  line-height: 90px; /* Vertically center the text there */
+  background-color: #D2D2D2;
+}
+
 /*nav bar*/
 .navbar{
 	background-color: #D2D2D2;
