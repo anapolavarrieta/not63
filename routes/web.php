@@ -36,6 +36,12 @@ Route::get('/ligas', function()
 	return View::make('ligas');
 });
 
+Route::get('/preguntas', function()
+{
+	return View::make('preguntas');
+});
+
+
 Route::get('/contacto', function()
 {
 	return View::make('contacto');
