@@ -21,7 +21,7 @@ html {
 .navbar{
 	background-color: #D2D2D2;
 	text-align: center;
-} 	
+}
 
 .navbar-light .navbar-nav .nav-link{
 	color:#8E0000;
@@ -52,7 +52,10 @@ h1.titulo{
 
 /*notario*/
 img.notario{
-	max-height: 250px;
+	/*max-height: 250px;*/
+	text-align: center;
+	align: center;
+	margin: 20px;
 }
 
 /*directorio*/
