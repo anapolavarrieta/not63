@@ -74,16 +74,16 @@
 			      	<img class="img-fluid footerImg" src= "{{URL::asset('/images/footer2.jpg')}}" alt="Notaria63">
 			      </div>
 			      <div class="col-sm-2" id="footerImg">
-			      	<img class="img-fluid footerImg" src= "{{URL::asset('/images/footer3.jpg')}}" alt="Notaria63">
+			      	<img class="img-fluid footerImg" src= "{{URL::asset('/images/footer3.JPG')}}" alt="Notaria63">
 			      </div>
 			      <div class="col-sm-2" id="footerImg">
-			      	<img class="img-fluid footerImg" src= "{{URL::asset('/images/footer4.jpg')}}" alt="Notaria63">
+			      	<img class="img-fluid footerImg" src= "{{URL::asset('/images/footer4.JPG')}}" alt="Notaria63">
 			      </div>
 			      <div class="col-sm-2" id="footerImg">
-			      	<img class="img-fluid footerImg" src= "{{URL::asset('/images/footer5.jpg')}}" alt="Notaria63">
+			      	<img class="img-fluid footerImg" src= "{{URL::asset('/images/footer5.JPG')}}" alt="Notaria63">
 			      </div>
 			      <div class="col-sm-2" id="footerImg">
-			      	<img class="img-fluid footerImg" src= "{{URL::asset('/images/footer6.jpg')}}" alt="Notaria63">
+			      	<img class="img-fluid footerImg" src= "{{URL::asset('/images/footer6.JPG')}}" alt="Notaria63">
 			      </div>
 			  </div>
       		</div>
