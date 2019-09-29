@@ -29,7 +29,7 @@
 <body>
 
 	<div class="container-fluid px-0 h-100">
-		<nav class="navbar navbar-expand-lg navbar-light"> 
+		<nav class="navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="/">
 				<img src= "{{URL::asset('/images/logo.png')}}" height= "100px" alt="Notaria63 Logo">
 			</a>
@@ -51,12 +51,12 @@
 						<a class="nav-link" href="/ligas">Ligas de interés</a>
 					</li>
 
-					<li class="nav-item"> 
-						<a class="nav-link" href="/preguntas">Preguntas Frecuentes</a> 
-					</li>   
-					<li class="nav-item"> 
-						<a class="nav-link" href="/contacto">Contacto</a> 
-					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="/preguntas">Preguntas Frecuentes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/contacto">Contacto</a>
+					</li>
 				</ul>
 			</div>
 		</nav>
@@ -65,25 +65,25 @@
       	@yield('content')
 
       	<footer class="footer">
-      		<div class="container">
+      		<div class="container d-none d-sm-block">
         		<div class="row">
 			      <div class="col-sm-2" id="footerImg">
-			      	<img class="footerImg" src= "{{URL::asset('/images/footer1.jpg')}}" alt="Notaria63">
+			      	<img class="img-fluid footerImg" src="{{URL::asset('/images/footer1.jpg')}}" alt="Notario63" >
 			      </div>
 			      <div class="col-sm-2" id="footerImg">
-			      	<img class="footerImg" src= "{{URL::asset('/images/footer2.jpg')}}" alt="Notaria63">
+			      	<img class="img-fluid footerImg" src= "{{URL::asset('/images/footer2.jpg')}}" alt="Notaria63">
 			      </div>
 			      <div class="col-sm-2" id="footerImg">
-			      	<img class="footerImg" src= "{{URL::asset('/images/footer3.jpg')}}" alt="Notaria63">
+			      	<img class="img-fluid footerImg" src= "{{URL::asset('/images/footer3.jpg')}}" alt="Notaria63">
 			      </div>
 			      <div class="col-sm-2" id="footerImg">
-			      	<img class="footerImg" src= "{{URL::asset('/images/footer4.jpg')}}" alt="Notaria63">
+			      	<img class="img-fluid footerImg" src= "{{URL::asset('/images/footer4.jpg')}}" alt="Notaria63">
 			      </div>
 			      <div class="col-sm-2" id="footerImg">
-			      	<img class="footerImg" src= "{{URL::asset('/images/footer5.jpg')}}" alt="Notaria63">
+			      	<img class="img-fluid footerImg" src= "{{URL::asset('/images/footer5.jpg')}}" alt="Notaria63">
 			      </div>
 			      <div class="col-sm-2" id="footerImg">
-			      	<img class="footerImg" src= "{{URL::asset('/images/footer6.jpg')}}" alt="Notaria63">
+			      	<img class="img-fluid footerImg" src= "{{URL::asset('/images/footer6.jpg')}}" alt="Notaria63">
 			      </div>
 			  </div>
       		</div>
